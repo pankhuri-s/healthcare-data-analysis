@@ -77,6 +77,10 @@ The dataset was prepared for analysis by creating analytical fields such as:
 
 These derived fields support segmentation, KPI analysis, and dashboard creation.
 
+## Dashboard Preview
+
+![Healthcare Analytics Dashboard](Healthcare_Dashboard.png)
+
 ## 📈 Analysis
 
 The analysis focuses on:
