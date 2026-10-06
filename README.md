@@ -122,7 +122,8 @@ The completed dashboard is designed to highlight:
 ## 🛠️ Tools Used
 
 - **Microsoft Excel**
-- **Power BI**
+- **PivotTables & PivotCharts**
+- **Power Query**
 - **GitHub**
 
 ## 📚 What I Learned
