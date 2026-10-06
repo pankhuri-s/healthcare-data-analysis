@@ -30,15 +30,12 @@ The objective is to turn raw healthcare records into meaningful insights that ca
 ## 📁 Project Structure
 
 ```text
-Healthcare_Data_Analysis/
+healthcare-data-analysis/
 │
-├── data/
-│   └── Healthcare_Data_Clean.xlsx
-│
-├── docs/
-│   └── dashboard_screenshots/
-│
-└── README.md
+├── Healthcare_Data_Analysis.xlsx
+├── PROJECT_NOTES.md
+├── README.md
+└── .gitignore
 ```
 
 ## 🗂️ Dataset
@@ -150,4 +147,4 @@ It also helped me move beyond simply creating charts toward asking:
 
 **Pankhuri**
 
-Aspiring Data Analyst | Excel | Power BI | SQL | Data Analytics
+Aspiring Data Analyst | Excel | Power BI | SQL | Python | Data Analytics
