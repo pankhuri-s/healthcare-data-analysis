@@ -77,7 +77,7 @@ The dataset was prepared for analysis by creating analytical fields such as:
 
 These derived fields support segmentation, KPI analysis, and dashboard creation.
 
-## 📈 Dashboard / Analysis
+## 📈 Analysis
 
 The analysis focuses on:
 
@@ -107,17 +107,30 @@ The analysis focuses on:
 - Medication usage
 - Abnormal/inconclusive test-result patterns
 
-## 💡 Business Insights
+## 💡 Key Insights
 
-The completed dashboard is designed to highlight:
+**The completed analysis is designed to highlight:**
 
-- High-value billing segments
-- Admission types associated with greater billing
-- Patient groups contributing significantly to total billing
-- Treatment-duration patterns
-- Areas where billing per treatment day is comparatively high
+	- Emergency admissions have the highest average billing, at approximately ₹24,279, compared with the overall average of ₹23,381.
+	- Cancer is the highest-billing medical condition, with an average billing of approximately ₹39,677, around 70% above the overall average.
+	- Medical condition appears to be a stronger differentiator of billing than insurance provider or demographic segment. Cancer remains the highest-billing condition across all insurance providers and age-gender groups.
+	- Insurance providers show relatively small differences in average billing, with Cigna recording the highest average at approximately ₹24,226 and Blue Cross the lowest at ₹22,772.
+	- Length of stay alone does not strongly differentiate average billing. Average billing remains relatively consistent across Short, Medium, and Long Stay categories.
+	- Emergency admissions consistently show higher average billing across length-of-stay categories, with Medium Stay + Emergency cases recording the highest combination at approximately ₹24,659.
 
-> Final numerical conclusions should be interpreted together with the dashboard filters and analysis period.
+## 💡Business Recommendations
+
+  	**Based on the analysis, the following areas could be explored further:**
+    
+		- Investigate high-cost medical conditions
+Analyze Cancer and Diabetes cases in greater detail to understand treatment intensity, resource utilization, and factors contributing to higher billing.
+		- Monitor emergency-care utilization
+Emergency admissions consistently show higher average billing. Further analysis of treatment types, length of stay, and resource utilization could help identify cost drivers.
+		- Analyze cost drivers beyond length of stay
+Since billing remains relatively consistent across stay categories, healthcare costs should be evaluated using additional factors such as medical condition, admission type, and patient characteristics.
+		- Perform deeper segment analysis
+Combine medical condition, admission type, demographics, and insurance information to identify high-cost patient segments and support better resource planning.
+
 
 ## 🛠️ Tools Used
 
