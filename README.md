@@ -1,6 +1,6 @@
 # Healthcare Data Analysis Dashboard
 
-## 📊 Project Overview
+## Project Overview
 
 This project analyzes a 10,000-record healthcare dataset to understand patient demographics, hospital admissions, treatment duration, billing, medical conditions, insurance providers, and test outcomes.
 
@@ -14,7 +14,7 @@ The project was created as part of my Data Analyst learning journey and demonstr
 - Business-oriented insight generation
 - Healthcare data analysis
 
-## 🎯 Business Objective
+## Business Objective
 
 The objective is to turn raw healthcare records into meaningful insights that can help answer questions such as:
 
@@ -27,18 +27,18 @@ The objective is to turn raw healthcare records into meaningful insights that ca
 - Which insurance providers are associated with higher billing?
 - Where are potential high-billing or high-cost segments?
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 healthcare-data-analysis/
-│
-├── Healthcare_Data_Analysis.xlsx
-├── PROJECT_NOTES.md
-├── README.md
-└── .gitignore
+|
+|-- Healthcare_Data_Analysis.xlsx
+|-- PROJECT_NOTES.md
+|-- README.md
+|-- .gitignore
 ```
 
-## 🗂️ Dataset
+## Dataset
 
 The cleaned dataset contains **10,000 healthcare records** and 23 analytical columns.
 
@@ -62,7 +62,7 @@ Key fields include:
 - Length-of-stay category
 - Billing amount and billing-per-day buckets
 
-## 🔎 Data Preparation
+## Data Preparation
 
 The dataset was prepared for analysis by creating analytical fields such as:
 
@@ -81,7 +81,7 @@ These derived fields support segmentation, KPI analysis, and dashboard creation.
 
 ![Healthcare Analytics Dashboard](Healthcare_Dashboard.png)
 
-## 📈 Analysis
+## Analysis
 
 The analysis focuses on:
 
@@ -111,7 +111,7 @@ The analysis focuses on:
 - Medication usage
 - Abnormal/inconclusive test-result patterns
 
-## 💡 Key Insights
+## Key Insights
 
 **The completed analysis is designed to highlight:**
 
@@ -122,7 +122,7 @@ The analysis focuses on:
 	- Length of stay alone does not strongly differentiate average billing. Average billing remains relatively consistent across Short, Medium, and Long Stay categories.
 	- Emergency admissions consistently show higher average billing across length-of-stay categories, with Medium Stay + Emergency cases recording the highest combination at approximately ₹24,659.
 
-## 💡Business Recommendations
+## Business Recommendations
 
   	**Based on the analysis, the following areas could be explored further:**
     
@@ -136,24 +136,24 @@ Since billing remains relatively consistent across stay categories, healthcare c
 Combine medical condition, admission type, demographics, and insurance information to identify high-cost patient segments and support better resource planning.
 
 
-## 🛠️ Tools Used
+## Tools Used
 
 - **Microsoft Excel**
 - **PivotTables & PivotCharts**
 - **Power Query**
 - **GitHub**
 
-## 📚 What I Learned
+## What I Learned
 
 This project helped me practice the complete analyst workflow:
 
-**Raw Data → Data Cleaning → Feature Creation → EDA → KPI Analysis → Visualization → Business Insights**
+**Raw Data -- Data Cleaning -- Feature Creation -- EDA -- KPI Analysis -- Visualization -- Business Insights**
 
 It also helped me move beyond simply creating charts toward asking:
 
 > **"What business or operational decision does this analysis support?"**
 
-## 🚀 Future Improvements
+## Future Improvements
 
 - Add Power BI dashboard screenshots
 - Add the Power BI `.pbix` project file where appropriate
@@ -161,7 +161,7 @@ It also helped me move beyond simply creating charts toward asking:
 - Add a detailed data dictionary
 - Add deeper healthcare cost and patient-segment analysis
 
-## 👩‍💻 Author
+## Author
 
 **Pankhuri**
 
